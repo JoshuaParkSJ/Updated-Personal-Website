@@ -1,0 +1,586 @@
+
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background: rgb(238, 226, 220);
+    width:  100%; word-wrap: break-word;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+/* Header */
+header #center-name{
+    text-align:center;
+}
+
+header nav{
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    background: rgb(237, 199, 183);
+    color: white;
+    padding-top: 30px;
+    min-height:70px;
+    height: 350px;
+    width: 100%;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+header li{
+    text-align: center;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+header nav a:hover{
+    font-weight:bold;
+    color: rgb(153, 153, 153);
+}
+
+header h3 a{
+    color: black;
+    text-decoration: none;
+    float: right;
+}
+
+ul.social-icons li img{
+    float: left;
+    width: 30px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Center Picture */
+.center-picture{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    background-image: url(photos/grand\ canyon.jpg);
+    background-size: 1300px;
+    background-repeat: none;
+    background-position-y: -100px;
+    width: 85%;
+    height: 600px;
+    display: block;
+    box-shadow: 0 0 2px black;
+}
+
+.center-picture h6{
+    text-indent: -999999px;
+}
+
+.center-picture h1{
+    text-align: center;
+    margin: 490px 0 0 0;
+    color: rgb(238, 226, 220);   
+}
+
+
+/* About Me Box*/
+section.section-one{
+    height: 775px;
+    width: 85%;
+    position: relative;
+    top:850px;
+    margin: auto;
+    margin-top: -800px;
+    display: block;
+}
+
+/* Headshot */
+section.section-one h2{
+    width: 100%;
+    height: 600px;
+    background-image: url(photos/headshot.jpg);
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    text-indent: -99999px;
+}
+
+section.section-one h3{
+    width: 600px;
+    height: 300px;
+    background-image: url(photos/joshua\ skydivin.jpg);
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    text-indent: -99999px;
+    z-index: 5;
+    margin-top: -210px;
+}
+
+.split-left, .split-right{
+    height: 100%;
+    width: 50%;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+}
+
+.split-left{
+    left: 0;
+    position: relative;
+}
+
+.split-right{
+    right: 0;
+    position: absolute;
+    border: white 5px solid;
+}
+
+.split-center p{
+    font-size: 17px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.split-center h1{
+    font-size: 40px;
+    color: rgb(172, 59, 97);
+}
+
+.split-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.split-center a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 20px;
+    font-weight: bold;
+}
+
+/* Experience Box */
+.slides{
+    display: none;
+}
+
+.section-two {
+    max-width: 85%;
+    position: relative;
+    margin-top: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-two img {
+    height: 700px;
+    width: 85%;
+}
+
+/* next and prev arrows */
+.prev, .next {
+    position: absolute;
+    top: 31.5%;
+    width: auto;
+    margin-top: 140px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.next {
+    right: -3px;
+    border-radius: 3px 0 0 3px;
+    display: pointer;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgb(99, 99, 99);
+}
+.prev, .next{
+    background-color: white;
+}
+.prev {
+    left: 3px;
+}
+
+/* title */
+.title {
+    color: rgb(172, 59, 97);
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    top: 50px;
+}
+
+/* 1/3 page counting */
+.page-count {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
+    z-index: 5;
+    top: -290px;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* images E-Z Roll */
+.split-top-exp img{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    border: white 3px solid;
+}
+
+.split-right-exp img{
+    height: 280px;
+    width: 33%;
+    position: absolute;
+    right: 33%;
+    margin-top: 27%;
+    border: white 3px solid;
+}
+
+.split-left-exp img{
+    height: 280px;
+    width: 33%;
+    position: absolute;
+    margin-top: 27%;
+    border: white 3px solid;
+}
+
+.split-left-exp-small img{
+    height: 280px;
+    width: 33%;
+    position: absolute;
+    margin-top: 27%;
+    border: white 3px solid;
+    right: -6px;
+}
+
+div.experience-explanation{
+    margin-top: 580px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+}
+
+.experience-explanation, .experience-explanation2, .experience-explanation3,  .experience-explanation4 {
+    height: 325px;
+}
+
+/* images my personal website */
+.split-ltop-personalweb img{
+    height: 325px;
+    width: 30%;
+    position: absolute;
+    border: white 3px solid;
+}
+
+.split-lbot-personalweb img{
+    height: 270px;
+    width: 30%;
+    position: absolute;
+    margin-top: 331px;
+    border: white 3px solid;
+}
+
+.split-right-personalweb img{
+    height: 601px;
+    width: 70%;
+    right: 0px;
+    position: absolute;
+    border: white 3px solid;
+}
+
+div.experience-explanation2{
+    margin-top: 580px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+}
+
+/* tome images */
+div.tome-pictures img{
+    height: 595px;
+    width: 100%;
+    position: absolute;
+    border: white 3px solid;
+}
+
+div.entangle-pictures img{
+    height: 595px;
+    position: absolute;
+    border: white 3px solid;
+    width: 100%;
+}
+
+.experience-explanation3{
+    margin-top: 580px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+}
+
+div.experience-explanation4{
+    margin-top: 580px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+}
+
+.experience-explanation4 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* timeline */
+.title-experience{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+    color: rgb(172, 59, 97);
+    background: rgb(237, 199, 183);
+    padding: 23px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.timeline {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+    background-size: 450px;
+    padding: 70px 0;
+    margin-top: -10px;
+    height: 700px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 603px;
+    margin-left: -3px;
+    z-index: 3;
+}
+
+/* Container around content */
+.box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 450px;
+    box-sizing: border-box;
+    margin-left: 115px;
+    margin-top: -50px;
+    box-shadow: 0 0 3px black;
+
+}
+
+/* The circles on the timeline */
+.box::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -19px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+/* Place the container to the left */
+.leftt {
+    left: 0;
+    top: -225px;
+}
+
+/* Place the container to the right */
+.rightt {
+    left: 42.2%;
+    top: -78px;
+}
+
+.box:first-child{
+    top: 12px;
+}
+
+/* Add arrows to the left container (pointing right) */
+.leftt::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: -10px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+    
+}
+
+/* Add arrows to the right container (pointing left) */
+.rightt::before {
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 20px;
+    width: 0;
+    z-index: 5;
+    left: -10px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right & left side */
+.rightt::after {
+    left: -45px;
+}
+
+.leftt::after{
+    right: -55px;
+}
+
+/* The actual content */
+.box {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Contact Me section*/
+.last-section{
+    width: 85%;
+    height: 325px;
+    background: rgb(237, 199, 183);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.last-section h2{
+    width: 500px;
+    height: 300px;
+    background-image: url(photos/picture\ of\ eagle.jpg);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+    text-indent: -99999px;
+    margin-left: 50px;
+}
+
+.last-section h1{
+    width: 600px;
+    height: 300px;
+    margin-left: 712px;
+    font-size: 40px;
+    color: rgb(172, 59, 97);
+    position: absolute;
+    height:100px;
+}
+
+.last-section h3{
+    width: 600px;
+    height: 100px;
+    margin-left: 612px;
+    margin-top: 100px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.last-section  h3 a{
+    color: black;
+    text-decoration: none;
+}
+
+.last-section ul{
+    display: flex;
+    list-style: none;
+    margin-left: 595px;
+    margin-top: -55px;
+    width: 200px;
+}
+
+ul.social-iconss li img{
+    margin: 10px;
+    width: 30px;
+    border-radius: 50%;
+    background: white;
+}
+
+footer {
+    position: relative;
+    height: 70px;
+    width: 85%;
+}
+
+p.copyright {
+    position: absolute;
+    width: 1000px;
+    color: black;
+    line-height: 40px;
+    font-size: 1em;
+    text-align: left;
+    top: 0px;
+    margin-left: 115px;
+}

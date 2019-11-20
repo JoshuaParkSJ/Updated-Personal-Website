@@ -1,0 +1,3052 @@
+
+@media screen and (max-width: 320px) and (orientation:portrait){
+    body{
+         width:  100%; word-wrap: break-word;
+         margin-left: 10px;
+    }
+    .navigations{
+        display: none;
+    }
+
+    #center-name img{
+        width: 85%;
+    }
+
+    /* name logo */
+    .container h3{
+        width: 80%;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+
+    /* email */
+    .container h3 {
+       margin-left: 10px;
+    }
+
+    header .social-icons{
+        display: none;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 230px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: -75px;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 130%;
+        width: 97%;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1380px;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 28%;
+    }
+
+    .dot {
+        top: -270px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 400px;
+    }
+
+    .timeline{
+        width:100%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 143%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: 160%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 15px;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 20%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 2%;
+        margin-top: 450px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 25%;
+        margin-top: 75%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) and (orientation:portrait){
+
+    body{
+        margin-left: 10px;
+        width:  100%; word-wrap: break-word;
+    }
+
+    .navigations{
+        display: none;
+    }
+
+    #center-name img{
+        width: 100%;
+        margin-left: auto;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    /* name logo */
+    .container h3{
+        width: 80%;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+
+    /* email */
+    .container h3 {
+       margin-left: -11px;
+    }
+
+    header .social-icons{
+        display:none;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 230px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: -75px;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 130%;
+        width: 97%;
+        margin-top: 30px;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1380px;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 28%;
+    }
+
+    .dot {
+        top: -270px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 400px;
+    }
+
+    .timeline{
+        width:100%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 143%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: 160%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 15px;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 20%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 2%;
+        margin-top: 430px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 25%;
+        margin-top: 58%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) and (orientation:portrait){
+    body{
+        width:  100%; word-wrap: break-word;
+    }
+    .container{
+        margin:auto;
+        overflow:hidden;
+    }
+    
+    /* Header */
+    header #center-name{
+        text-align:center;
+    }
+    
+    header nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header{
+        background: rgb(237, 199, 183);
+        color: white;
+        padding-top: 30px;
+        min-height:70px;
+        height: 350px;
+        width: 120%;
+    }
+    
+    header nav a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    
+    header li{
+        text-align: center;
+        display: inline-block;
+        padding: 0 20px 0 20px;
+    }
+    
+    header nav a:hover{
+        font-weight:bold;
+        color: rgb(153, 153, 153);
+    }
+    
+    header h3 a{
+        color: black;
+        text-decoration: none;
+        float: right;
+    }
+    
+    ul.social-icons li img{
+        float: left;
+        width: 30px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+        margin-left: 10%;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: 100px;
+        margin-left: 13%;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 100%;
+        width: 97%;
+        margin-left: 10%;
+        margin-top: 13%;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1450px;
+        margin-left: 16%;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 22%;
+    }
+
+    .dot {
+        top: -270px;
+        left: 70px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 10%;
+    }
+
+    .timeline{
+        width:100%;
+        margin-left: 10%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 90%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 20%;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 35%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 23%;
+        margin-top: 450px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 37%;
+        margin-top: 30%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width:1439px) and (orientation:portrait){
+    body{
+        margin-left: 9px;
+        width:  100%; word-wrap: break-word;
+    }
+    
+    /* Header */
+    header #center-name{
+        text-align:center;
+    }
+    
+    header nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header{
+        background: rgb(237, 199, 183);
+        color: white;
+        padding-top: 30px;
+        min-height:70px;
+        height: 350px;
+        width: 120%;
+    }
+    
+    header nav a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    
+    header li{
+        text-align: center;
+        display: inline-block;
+        padding: 0 20px 0 20px;
+    }
+    
+    header nav a:hover{
+        font-weight:bold;
+        color: rgb(153, 153, 153);
+    }
+    
+    header h3 a{
+        color: black;
+        text-decoration: none;
+        float: right;
+    }
+    
+    ul.social-icons li img{
+        float: left;
+        width: 30px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+        margin-left: 10%;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: 100px;
+        margin-left: 13%;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 100%;
+        width: 97%;
+        margin-left: 10%;
+        margin-top: 13%;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1500px;
+        margin-left: 16%;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 22%;
+    }
+
+    .dot {
+        top: -270px;
+        left: 70px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 150px;
+        margin-left: 10%;
+    }
+
+    .timeline{
+        width:100%;
+        margin-left: 10%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 90%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 28%;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 38%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 30%;
+        margin-top: 450px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 40%;
+        margin-top: 22%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 568px) and (orientation:landscape) {
+    body{
+        margin-left: 7px;
+        width:  100%; word-wrap: break-word;
+    }
+
+    .container{
+        margin:auto;
+        overflow:hidden;
+    }
+    
+    /* Header */
+    header #center-name{
+        text-align:center;
+    }
+    
+    header nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header{
+        background: rgb(237, 199, 183);
+        color: white;
+        padding-top: 30px;
+        min-height:70px;
+        height: 350px;
+        width: 120%;
+    }
+    
+    header nav a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    
+    header li{
+        text-align: center;
+        display: inline-block;
+        padding: 0 20px 0 20px;
+    }
+    
+    header nav a:hover{
+        font-weight:bold;
+        color: rgb(153, 153, 153);
+    }
+    
+    header h3 a{
+        color: black;
+        text-decoration: none;
+        float: right;
+    }
+    
+    ul.social-icons li img{
+        float: left;
+        width: 30px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+        margin-left: 10%;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: 100px;
+        margin-left: 13%;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 100%;
+        width: 97%;
+        margin-left: 10%;
+        margin-top: 13%;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1250px;
+        margin-left: 16%;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 22%;
+    }
+
+    .dot {
+        top: -270px;
+        left: 70px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 10%;
+    }
+
+    .timeline{
+        width:100%;
+        margin-left: 10%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 90%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 30%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 15%;
+        margin-top: 450px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 37%;
+        margin-top: 40%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 569px) and (max-width: 730px) and (orientation:landscape)  {
+    body{
+        width:  100%; word-wrap: break-word;
+    }
+
+    .container{
+        margin:auto;
+        overflow:hidden;
+    }
+    
+    /* Header */
+    header #center-name{
+        text-align:center;
+    }
+    
+    header nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header{
+        background: rgb(237, 199, 183);
+        color: white;
+        padding-top: 30px;
+        min-height:70px;
+        height: 350px;
+        width: 120%;
+    }
+    
+    header nav a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    
+    header li{
+        text-align: center;
+        display: inline-block;
+        padding: 0 20px 0 20px;
+    }
+    
+    header nav a:hover{
+        font-weight:bold;
+        color: rgb(153, 153, 153);
+    }
+    
+    header h3 a{
+        color: black;
+        text-decoration: none;
+        float: right;
+    }
+    
+    ul.social-icons li img{
+        float: left;
+        width: 30px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+        margin-left: 10%;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: 100px;
+        margin-left: 13%;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 100%;
+        width: 97%;
+        margin-left: 10%;
+        margin-top: 13%;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1325px;
+        margin-left: 16%;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 22%;
+    }
+
+    .dot {
+        top: -270px;
+        left: 70px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 10%;
+    }
+
+    .timeline{
+        width:100%;
+        margin-left: 10%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 90%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 30%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 15%;
+        margin-top: 450px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 37%;
+        margin-top: 35%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 731px) and (max-width: 811px) and (orientation:landscape) {
+    body{
+        width:  100%; word-wrap: break-word;
+    }
+    .container{
+        margin:auto;
+        overflow:hidden;
+    }
+    
+    /* Header */
+    header #center-name{
+        text-align:center;
+    }
+    
+    header nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header{
+        background: rgb(237, 199, 183);
+        color: white;
+        padding-top: 30px;
+        min-height:70px;
+        height: 350px;
+        width: 120%;
+    }
+    
+    header nav a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    
+    header li{
+        text-align: center;
+        display: inline-block;
+        padding: 0 20px 0 20px;
+    }
+    
+    header nav a:hover{
+        font-weight:bold;
+        color: rgb(153, 153, 153);
+    }
+    
+    header h3 a{
+        color: black;
+        text-decoration: none;
+        float: right;
+    }
+    
+    ul.social-icons li img{
+        float: left;
+        width: 30px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+        margin-left: 10%;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: 100px;
+        margin-left: 13%;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 100%;
+        width: 97%;
+        margin-left: 10%;
+        margin-top: 13%;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1375px;
+        margin-left: 16%;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 22%;
+    }
+
+    .dot {
+        top: -270px;
+        left: 70px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 10%;
+    }
+
+    .timeline{
+        width:100%;
+        margin-left: 10%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 90%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 30%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 15%;
+        margin-top: 450px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 37%;
+        margin-top: 30%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 812px) and (max-width: 1023px) and (orientation:landscape) {
+    body{
+        width:  100%; word-wrap: break-word;
+    }
+    .container{
+        margin:auto;
+        overflow:hidden;
+    }
+    
+    /* Header */
+    header #center-name{
+        text-align:center;
+    }
+    
+    header nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header{
+        background: rgb(237, 199, 183);
+        color: white;
+        padding-top: 30px;
+        min-height:70px;
+        height: 350px;
+        width: 120%;
+    }
+    
+    header nav a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    
+    header li{
+        text-align: center;
+        display: inline-block;
+        padding: 0 20px 0 20px;
+    }
+    
+    header nav a:hover{
+        font-weight:bold;
+        color: rgb(153, 153, 153);
+    }
+    
+    header h3 a{
+        color: black;
+        text-decoration: none;
+        float: right;
+    }
+    
+    ul.social-icons li img{
+        float: left;
+        width: 30px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+        margin-left: 10%;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: 100px;
+        margin-left: 13%;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 100%;
+        width: 97%;
+        margin-left: 10%;
+        margin-top: 13%;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1425px;
+        margin-left: 16%;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 22%;
+    }
+
+    .dot {
+        top: -270px;
+        left: 70px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 120px;
+        margin-left: 10%;
+    }
+
+    .timeline{
+        width:100%;
+        margin-left: 10%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 90%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 30%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 15%;
+        margin-top: 450px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 37%;
+        margin-top: 27%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) and (orientation:landscape) {
+    body{
+        width:  100%; word-wrap: break-word;
+    }
+    .container{
+        margin:auto;
+        overflow:hidden;
+    }
+    
+    /* Header */
+    header #center-name{
+        text-align:center;
+    }
+    
+    header nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header{
+        background: rgb(237, 199, 183);
+        color: white;
+        padding-top: 30px;
+        min-height:70px;
+        height: 350px;
+        width: 120%;
+    }
+    
+    header nav a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    
+    header li{
+        text-align: center;
+        display: inline-block;
+        padding: 0 20px 0 20px;
+    }
+    
+    header nav a:hover{
+        font-weight:bold;
+        color: rgb(153, 153, 153);
+    }
+    
+    header h3 a{
+        color: black;
+        text-decoration: none;
+        float: right;
+    }
+    
+    ul.social-icons li img{
+        float: left;
+        width: 30px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    /* engineering for better humanity */
+    .center-picture h1{
+        display: none;
+    }
+
+    .center-picture{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        margin-top: -180px;
+        width: 100%;
+        height: 300px;
+        box-shadow: none;
+        margin-left: 10%;
+    }
+
+    section.section-one h3{
+        display: none;
+    }
+
+    section.section-one{
+        height: 875px;
+        width: 100%;
+        position: relative;
+        top:850px;
+        margin: auto;
+        margin-top: -900px;
+        display: block;
+    }
+    
+    /* Headshot picture */
+    section.section-one h2{
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        margin-top: 100px;
+        margin-left: 13%;
+    }
+    
+    .split-left, .split-right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .split-left{
+        left: 0;
+        position: relative;
+        top: -20%;
+    }
+    
+    /* about me explanation box */
+    .split-right{
+        left: 0;
+        position: relative;
+        border: white 5px solid;
+        height: 100%;
+        width: 97%;
+        margin-left: 10%;
+        margin-top: 13%;
+    }
+    
+    .split-center p{
+        font-size: 17px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .split-center{
+        position: relative;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* second section - projects */
+    .section-two{
+        margin-top: 1480px;
+        margin-left: 16%;
+    }
+
+    .split-top-exp img{
+        height: 280px;
+    }
+
+    .split-right-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-left-exp-small img{
+        height: 135px;
+        margin-top: 145px;
+    }
+
+    div.tome-pictures img, div.entangle-pictures img{
+        height: 270px;
+    }
+
+    .prev, .next {
+        top: 22%;
+    }
+
+    .dot {
+        top: -270px;
+        left: 70px;
+    }
+
+    div.experience-explanation, div.experience-explanation2, div.experience-explanation3, div.experience-explanation4 {
+        margin-top: 225px;
+        width: 100%;
+    }
+
+    .split-ltop-personalweb img{
+        height: 140px;
+    }
+    
+    .split-lbot-personalweb img{
+        height: 135px;
+        margin-top: 145px;
+    }
+    
+    .split-right-personalweb img{
+        height: 280px;
+        width: 70%;
+        right: 0px;
+        position: absolute;
+        border: white 3px solid;
+    }
+
+    .title-experience{
+        width: 90%;
+        margin-top: 120px;
+        margin-left: 10%;
+    }
+
+    .timeline{
+        width:100%;
+        margin-left: 10%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        height: 90%;
+    }
+
+    /* Full-width containers */
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .leftt::after, .rightt::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .rightt {
+        left: 0%;
+        top: 70px;
+    }
+    .leftt{
+        top: 130px;
+    }
+    
+    .leftt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    /* Add arrows to the right container (pointing left) */
+    .rightt::before {
+        content: "";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 5;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right & left side */
+    .rightt::after {
+        left: -55px;
+    }
+
+    .leftt::after{
+        left: -55px;
+    }
+
+    .box{
+        width: 95%;
+        left: -45px;
+    }
+    
+    .box {
+        padding: 5px 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 75%;
+    }
+
+    .timeline{
+        height: 920px;
+    }
+    
+    /*Contact Me section*/
+
+    .last-section{
+        width: 100%;
+        height: 600px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .last-section h2{
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+    .last-section h1{
+        width: 100%;
+        height: 300px;
+        margin-top: 350px;
+        margin-left: 30%;
+    }
+    
+    .last-section h3{
+        width: 100%;
+        height: 100px;
+        margin-left: 15%;
+        margin-top: 450px;
+    }
+    
+    .last-section  h3 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .last-section ul{
+        display: flex;
+        list-style: none;
+        margin-left: 37%;
+        margin-top: 23%;
+    }
+    
+    footer {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    
+    p.copyright {
+        width: 100%;
+        margin-left: 20px;
+    }
+}
