@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Joshua Park</title>
+  <link rel="shortcut icon" href="../J.png"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="../css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 650px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
+<style>
+.double-space {
+  line-height: 2;
+  position: relative; 
+  top: -.5em;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand white-text">
+        <strong><a class = "white-text" href = "../index.html">Back to Main </a></strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/joshua-sj-park/" class="nav-link" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://medium.com/@pjoshuasj" class="nav-link" target="_blank">
+              <i class="fab fa-medium"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+              <a href="https://github.com/JoshuaParkSJ" class="nav-link" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <!--Section: Main info-->
+      <section class="mt-5 wow fadeIn">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          
+          <div class="col-md-12 mb-4">
+            <br>
+            <br>
+            <h1 class = "h1 mb-2 flow-text">UBC Timetable Generator</h3>
+            <img src="../photos-copy/competitions/timetable.png" class="img-fluid z-depth-1-half" alt="">
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class= "mb-4">
+            <br/>
+            <h5 class="h5 text-center">Key Points</h5>
+            <ul>
+            <li class="h5">Constructed a timetable generator that creates a timetable with maximum professor grading and minimal walking distance</li>
+            <li class="h5">Implemented Google map API to retrieve distance data, web scraped data from ratemyprofessor.com to retrieve professor grading, and used Canvas’ course csv file to retrieve professor name and class location</li>
+            <li class="h5">Was not able to complete front end design in time, but algorithm was functioning</li>
+            <li class="h5">Contributors: Nils Maetzel, Christy Yao, Yutong Li, Angus Ho, Arya Subramanyam, Bryan Quinn, and Joshua Park</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+
+        <br/>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <input type="button" class="btn btn-info" value="Github" onclick=" product()">
+
+              <script>
+              function product()
+              {
+                  location.href = "https://github.com/JoshuaParkSJ/DataAnalyticsHackathon";
+              } 
+              </script>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!--Section: Main info-->
+
+
+    </div>
+
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="../Joshua-Resume.pdf" target="_blank" role="button">Download Resume
+        <i class="fas fa-download ml-2"></i>
+      </a>
+      <p><br>For professional inquiries: joshuaparksj@alumni.ubc.ca</p>
+    </div>
+    <!--/.Call to action-->
+
+    <hr>
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.linkedin.com/in/joshua-sj-park/" target="_blank">
+        <i class="fab fa-linkedin mr-3"></i>
+      </a>
+
+      <a href="https://medium.com/@pjoshuasj" target="_blank">
+        <i class="fab fa-medium mr-3"></i>
+      </a>
+
+      <a href="https://github.com/JoshuaParkSJ" target="_blank">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © Joshua Park 2019
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
+</html>
